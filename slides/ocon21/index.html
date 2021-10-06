@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="../../dist/reset.css">
+	<link rel="stylesheet" href="../../dist/reveal.css">
+	<link rel="stylesheet" href="../../dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="../../plugin/highlight/monokai.css">
+</head>
+<body>
+<div class="reveal">
+	<div class="slides">
+		<section>
+			<img src="https://owncloud.com/wp-content/uploads/2020/06/oc-logo-1c-1.svg">
+		</section>
+		<section>
+			<h3>ownCloud Conference 2021</h3>
+			<h4 class="fragment">build web extensions workshop</h4>
+		</section>
+
+		<section>
+			<section>
+				<img src="./img/fschade.png" style="width: 200px">
+				<h4>Florian Schade</h4>
+			</section>
+
+			<section>
+				<h4>my ownCloud journey started</h4>
+				<h3 class="fragment">11 // 20</h3>
+			</section>
+
+			<section>
+				<h3>ownCloud</h3>
+				<h4>Infinite Scale && Web</h4>
+			</section>
+
+			<section>
+				<h3>contact</h3>
+				<a class="fragment" href="https://github.com/fschade" target="_blank">github.com/fschade</a>
+				<br>
+				<a class="fragment" href="mailto:fschade@owncloud.com">fschade@owncloud.com</a>
+				<br>
+				<a class="fragment" href="https://talk.owncloud.com/" target="_blank">talk.owncloud.com</a>
+			</section>
+		</section>
+
+		<section>
+			<section>
+				<h3>A extension can be ...</h3>
+			</section>
+
+			<section>
+				<p>... background process like notifications ...</p>
+			</section>
+
+			<section>
+				<p>... file editor ...</p>
+			</section>
+
+			<section>
+				<p>... third party integration ...</p>
+			</section>
+
+			<section>
+				<p>... search ...</p>
+			</section>
+
+			<section>
+				<p>... application ...</p>
+			</section>
+
+			<section>
+				<p>... presentation ...</p>
+			</section>
+
+			<section>
+				<p>...</p>
+			</section>
+
+			<section>
+				<p>ownCloud, a portal for all of us</p>
+			</section>
+		</section>
+
+		<section>
+			<h3>Let's start</h3>
+		</section>
+
+		<section>
+			<h3>But first</h3>
+			<p class="fragment">live workshops</p>
+			<p class="fragment">can fail</p>
+			<iframe src="https://giphy.com/embed/ibGFpMv1Uoais" width="480" height="364" frameBorder="0"
+							class="giphy-embed fragment" allowFullScreen></iframe>
+		</section>
+
+		<section>
+			<section>
+				<h3>Prerequisites</h3>
+			</section>
+
+			<section>
+				<h3>ownCloud infinite Scale</h3>
+				<a href="https://github.com/owncloud/ocis" target="_blank">github.com/owncloud/ocis</a>
+			</section>
+
+			<section>
+				<h3>ownCloud web</h3>
+				<a href="https://github.com/owncloud/web" target="_blank">github.com/owncloud/web</a>
+			</section>
+
+			<section>
+				<h3>www</h3>
+				<img class="fragment" src="https://i.imgur.com/zt38C0F.jpeg">
+			</section>
+		</section>
+
+		<section>
+			<section>
+				<h3>What</h3>
+			</section>
+
+			<section>
+				<h3>Integrate wikipedia and make it searchable</h3>
+			</section>
+		</section>
+
+		<section>
+			<section>
+				<h3>Code</h3>
+			</section>
+			<section>
+				<a href="https://github.com/owncloud/web/blob/ocon21-workshop-app-wiki/packages/web-app-example-wiki/src/index.js"
+					 target="_blank">.../src/index.js</a>
+			</section>
+
+			<section>
+				<a href="https://github.com/owncloud/web/blob/ocon21-workshop-app-wiki/packages/web-app-example-wiki/src/App.vue"
+					 target="_blank">.../src/App.vue</a>
+			</section>
+
+			<section>
+				<a href="https://github.com/owncloud/web/blob/ocon21-workshop-app-wiki/packages/web-app-example-wiki/src/views/Page.vue"
+					 target="_blank">.../src/views/Page.vue</a>
+			</section>
+
+			<section>
+				<a href="https://github.com/owncloud/web/blob/ocon21-workshop-app-wiki/packages/web-app-example-wiki/src/search/index.ts"
+					 target="_blank">.../src/search/index.ts</a>
+			</section>
+
+			<section>
+				<a href="https://github.com/owncloud/web/blob/ocon21-workshop-app-wiki/packages/web-app-example-wiki/src/search/preview.ts"
+					 target="_blank">.../src/search/preview.ts</a>
+			</section>
+
+			<section>
+				<a href="https://github.com/owncloud/web/blob/ocon21-workshop-app-wiki/packages/web-app-example-wiki/src/services/wiki.ts"
+					 target="_blank">.../src/components/services/wiki.ts</a>
+			</section>
+
+			<section>
+				<a href="https://github.com/owncloud/web/blob/ocon21-workshop-app-wiki/packages/web-app-example-wiki/src/components/Search/Preview.vue"
+					 target="_blank">.../src/components/Search/Preview.vue</a>
+			</section>
+
+			<section>
+				<a href="https://github.com/owncloud/web/blob/ocon21-workshop-app-wiki/packages/web-app-example-wiki/src/search/list.ts"
+					 target="_blank">.../src/search/list.ts</a>
+			</section>
+
+			<section>
+				<a href="https://github.com/owncloud/web/blob/ocon21-workshop-app-wiki/packages/web-app-example-wiki/src/components/Search/List.vue"
+					 target="_blank">.../src/components/Search/List.vue</a>
+			</section>
+		</section>
+
+		<section>
+			<section>
+				<h3>Clone</h3>
+			</section>
+			<section>
+				<a href="https://github.com/owncloud/web/blob/ocon21-workshop-app-wiki/packages/web-app-example-wiki"
+					 target="_blank">https://github.com/owncloud/web/blob/ocon21-workshop-app-wiki</a>
+			</section>
+		</section>
+
+		<section>
+			<section>
+				<h3>Configure</h3>
+			</section>
+
+			<section>
+				<a href="https://github.com/owncloud/web/blob/ocon21-workshop-app-wiki/config/config.json.sample-ocis"
+					 target="_blank">config/config.json</a>
+			</section>
+		</section>
+
+		<section>
+			<section>
+				<h3>Run</h3>
+			</section>
+
+			<section>
+				<p>ownCloud web</p>
+				<pre><code data-trim>
+$ yarn
+$ yarn build:w
+          </code></pre>
+			</section>
+
+			<section>
+				<p>ownCloud infinite Scale</p>
+				<pre><code data-trim>
+$ export WEB_ASSET_PATH=./web/dist
+$ export WEB_CONFIG_FILE=./config.json
+$ ./ocis server
+          </code></pre>
+			</section>
+
+			<section>
+				<iframe src="https://giphy.com/embed/cfuL5gqFDreXxkWQ4o" width="480" height="480" frameBorder="0"
+								class="giphy-embed" allowFullScreen></iframe>
+			</section>
+		</section>
+
+		<section>
+			<section>
+				<h3>Next steps</h3>
+			</section>
+
+			<section>
+				<p>hardening extension loading</p>
+			</section>
+
+			<section>
+				<p>hardening extension api's</p>
+			</section>
+
+			<section>
+				<p>make extension api public</p>
+			</section>
+
+			<section>
+				<p>collect feedback</p>
+			</section>
+
+			<section>
+				<p>we need your support, your feedback ...</p>
+			</section>
+
+			<section>
+				<p>...</p>
+				<p class="fragment">and your bug reports</p>
+				<img class="fragment" src="https://img-9gag-fun.9cache.com/photo/a27vwpO_700b.jpg" style="width: 300px">
+			</section>
+		</section>
+
+
+		<section>
+			<section>
+				<h3>Thanks</h3>
+			</section>
+
+			<section>
+				<p><a href="https://giphy.com/" target="_blank">giphy</a> & <a href="https://imgur.com/"
+																																			 target="_blank">imgur</a></p>
+				<p>for the images</p>
+			</section>
+
+			<section>
+				<p><a href="https://github.com/hakimel/reveal.js/" target="_blank">reveal.js</a></p>
+				<p>for the framework</p>
+			</section>
+
+			<section>
+				<p><a href="https://www.wikipedia.org/" target="_blank">wikipedia</a></p>
+				<p>for the api and content</p>
+			</section>
+
+			<section>
+				<h3>TO YOU</h3>
+				<p>for your attention & feedback</p>
+			</section>
+
+			<section>
+				<h3>Team</h3>
+				<p>for your hard work</p>
+				<img src="img/team.png">
+			</section>
+		</section>
+
+		<section>
+			<h3>QA</h3>
+		</section>
+
+	</div>
+</div>
+
+<script src="../../dist/reveal.js"></script>
+<script src="../../plugin/notes/notes.js"></script>
+<script src="../../plugin/markdown/markdown.js"></script>
+<script src="../../plugin/highlight/highlight.js"></script>
+<script>
+	// More info about initialization & config:
+	// - https://revealjs.com/initialization/
+	// - https://revealjs.com/config/
+	Reveal.initialize({
+		hash: true,
+
+		// Learn about plugins: https://revealjs.com/plugins/
+		plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+	});
+</script>
+</body>
+</html>
